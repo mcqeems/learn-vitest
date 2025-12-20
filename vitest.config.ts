@@ -6,5 +6,6 @@ export default defineConfig({
     exclude: ['**/node_modules/**'],
     reporters: ['default', 'html'],
     environment: 'node',
+    globals: true,
   },
 });
