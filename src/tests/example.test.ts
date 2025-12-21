@@ -1,5 +1,4 @@
-import { expect, test } from 'vitest';
-import increment from '../utils/increment';
+import increment from '@/utils/increment';
 
 test('adds 1 + 1 equals 2', () => {
   expect(increment(1, 1)).toBe(2);

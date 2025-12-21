@@ -1,5 +1,4 @@
-import { expect, test } from 'vitest';
-import evenOdd from '../utils/evenOdd';
+import evenOdd from '@/utils/evenOdd';
 
 test('Check if 5 is odd', () => {
   expect(evenOdd(5)).toBe(false);
